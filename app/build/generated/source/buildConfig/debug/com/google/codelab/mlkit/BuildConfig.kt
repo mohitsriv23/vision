@@ -1,13 +1,15 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.google.codelab.mlkit;
+package com.google.codelab.mlkit
 
-public final class BuildConfig {
-  public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.google.codelab.mlkit";
-  public static final String BUILD_TYPE = "debug";
-  public static final String FLAVOR = "";
-  public static final int VERSION_CODE = 1;
-  public static final String VERSION_NAME = "1.0";
+import java.lang.Boolean
+
+object BuildConfig {
+    val DEBUG = Boolean.parseBoolean("true")
+    const val APPLICATION_ID = "com.google.codelab.mlkit"
+    const val BUILD_TYPE = "debug"
+    const val FLAVOR = ""
+    const val VERSION_CODE = 1
+    const val VERSION_NAME = "1.0"
 }

@@ -11,178 +11,162 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-package com.google.codelab.mlkit;
+package com.google.codelab.mlkit
 
-import android.content.Context;
-import android.graphics.Canvas;
-import android.hardware.camera2.CameraCharacteristics;
-import android.util.AttributeSet;
-import android.view.View;
-
-import java.util.HashSet;
-import java.util.Set;
+import android.content.Context
+import android.graphics.Canvas
+import android.hardware.camera2.CameraCharacteristics
+import android.util.AttributeSet
+import android.view.View
+import com.google.codelab.mlkit.GraphicOverlay.Graphic
 
 /**
  * A view which renders a series of custom graphics to be overlayed on top of an associated preview
  * (i.e., the camera preview). The creator can add graphics objects, update the objects, and remove
  * them, triggering the appropriate drawing and invalidation within the view.
- * <p>
- * <p>Supports scaling and mirroring of the graphics relative the camera's preview properties. The
+ *
+ *
+ *
+ * Supports scaling and mirroring of the graphics relative the camera's preview properties. The
  * idea is that detection items are expressed in terms of a preview size, but need to be scaled up
  * to the full view size, and also mirrored in the case of the front-facing camera.
- * <p>
- * <p>Associated {@link Graphic} items should use the following methods to convert to view
+ *
+ *
+ *
+ * Associated [Graphic] items should use the following methods to convert to view
  * coordinates for the graphics that are drawn:
- * <p>
- * <ol>
- * <li>{@link Graphic#scaleX(float)} and {@link Graphic#scaleY(float)} adjust the size of the
+ *
+ *
+ *
+ *  1. [Graphic.scaleX] and [Graphic.scaleY] adjust the size of the
  * supplied value from the preview scale to the view scale.
- * <li>{@link Graphic#translateX(float)} and {@link Graphic#translateY(float)} adjust the
+ *  1. [Graphic.translateX] and [Graphic.translateY] adjust the
  * coordinate from the preview's coordinate system to the view coordinate system.
- * </ol>
+ *
  */
-public class GraphicOverlay extends View {
-    private final Object lock = new Object();
-    private int previewWidth;
-    private float widthScaleFactor = 1.0f;
-    private int previewHeight;
-    private float heightScaleFactor = 1.0f;
-    private int facing = CameraCharacteristics.LENS_FACING_BACK;
-    private Set<Graphic> graphics = new HashSet<>();
+class GraphicOverlay(context: Context?, attrs: AttributeSet?) : View(context, attrs) {
+    private val lock = Any()
+    private var previewWidth = 0
+    private var widthScaleFactor = 1.0f
+    private var previewHeight = 0
+    private var heightScaleFactor = 1.0f
+    private var facing = CameraCharacteristics.LENS_FACING_BACK
+    private val graphics: MutableSet<Graphic> = HashSet()
 
     /**
      * Base class for a custom graphics object to be rendered within the graphic overlay. Subclass
-     * this and implement the {@link Graphic#draw(Canvas)} method to define the graphics element. Add
-     * instances to the overlay using {@link GraphicOverlay#add(Graphic)}.
+     * this and implement the [Graphic.draw] method to define the graphics element. Add
+     * instances to the overlay using [GraphicOverlay.add].
      */
-    public abstract static class Graphic {
-        private GraphicOverlay overlay;
-
-        public Graphic(GraphicOverlay overlay) {
-            this.overlay = overlay;
-        }
-
+    abstract class Graphic(private val overlay: GraphicOverlay) {
         /**
          * Draw the graphic on the supplied canvas. Drawing should use the following methods to convert
          * to view coordinates for the graphics that are drawn:
-         * <p>
-         * <ol>
-         * <li>{@link Graphic#scaleX(float)} and {@link Graphic#scaleY(float)} adjust the size of the
+         *
+         *
+         *
+         *  1. [Graphic.scaleX] and [Graphic.scaleY] adjust the size of the
          * supplied value from the preview scale to the view scale.
-         * <li>{@link Graphic#translateX(float)} and {@link Graphic#translateY(float)} adjust the
+         *  1. [Graphic.translateX] and [Graphic.translateY] adjust the
          * coordinate from the preview's coordinate system to the view coordinate system.
-         * </ol>
+         *
          *
          * @param canvas drawing canvas
          */
-        public abstract void draw(Canvas canvas);
+        abstract fun draw(canvas: Canvas?)
 
         /**
          * Adjusts a horizontal value of the supplied value from the preview scale to the view scale.
          */
-        public float scaleX(float horizontal) {
-            return horizontal * overlay.widthScaleFactor;
+        fun scaleX(horizontal: Float): Float {
+            return horizontal * overlay.widthScaleFactor
         }
 
         /**
          * Adjusts a vertical value of the supplied value from the preview scale to the view scale.
          */
-        public float scaleY(float vertical) {
-            return vertical * overlay.heightScaleFactor;
+        fun scaleY(vertical: Float): Float {
+            return vertical * overlay.heightScaleFactor
         }
 
         /**
          * Returns the application context of the app.
          */
-        public Context getApplicationContext() {
-            return overlay.getContext().getApplicationContext();
-        }
+        val applicationContext: Context
+            get() = overlay.context.applicationContext
 
         /**
          * Adjusts the x coordinate from the preview's coordinate system to the view coordinate system.
          */
-        public float translateX(float x) {
-            if (overlay.facing == CameraCharacteristics.LENS_FACING_FRONT) {
-                return overlay.getWidth() - scaleX(x);
+        fun translateX(x: Float): Float {
+            return if (overlay.facing == CameraCharacteristics.LENS_FACING_FRONT) {
+                overlay.width - scaleX(x)
             } else {
-                return scaleX(x);
+                scaleX(x)
             }
         }
 
         /**
          * Adjusts the y coordinate from the preview's coordinate system to the view coordinate system.
          */
-        public float translateY(float y) {
-            return scaleY(y);
+        fun translateY(y: Float): Float {
+            return scaleY(y)
         }
 
-        public void postInvalidate() {
-            overlay.postInvalidate();
+        fun postInvalidate() {
+            overlay.postInvalidate()
         }
-    }
-
-    public GraphicOverlay(Context context, AttributeSet attrs) {
-        super(context, attrs);
     }
 
     /**
      * Removes all graphics from the overlay.
      */
-    public void clear() {
-        synchronized (lock) {
-            graphics.clear();
-        }
-        postInvalidate();
+    fun clear() {
+        synchronized(lock) { graphics.clear() }
+        postInvalidate()
     }
 
     /**
      * Adds a graphic to the overlay.
      */
-    public void add(Graphic graphic) {
-        synchronized (lock) {
-            graphics.add(graphic);
-        }
-        postInvalidate();
+    fun add(graphic: Graphic) {
+        synchronized(lock) { graphics.add(graphic) }
+        postInvalidate()
     }
 
     /**
      * Removes a graphic from the overlay.
      */
-    public void remove(Graphic graphic) {
-        synchronized (lock) {
-            graphics.remove(graphic);
-        }
-        postInvalidate();
+    fun remove(graphic: Graphic) {
+        synchronized(lock) { graphics.remove(graphic) }
+        postInvalidate()
     }
 
     /**
      * Sets the camera attributes for size and facing direction, which informs how to transform image
      * coordinates later.
      */
-    public void setCameraInfo(int previewWidth, int previewHeight, int facing) {
-        synchronized (lock) {
-            this.previewWidth = previewWidth;
-            this.previewHeight = previewHeight;
-            this.facing = facing;
+    fun setCameraInfo(previewWidth: Int, previewHeight: Int, facing: Int) {
+        synchronized(lock) {
+            this.previewWidth = previewWidth
+            this.previewHeight = previewHeight
+            this.facing = facing
         }
-        postInvalidate();
+        postInvalidate()
     }
 
     /**
      * Draws the overlay with its associated graphic objects.
      */
-    @Override
-    protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
-
-        synchronized (lock) {
-            if ((previewWidth != 0) && (previewHeight != 0)) {
-                widthScaleFactor = (float) canvas.getWidth() / (float) previewWidth;
-                heightScaleFactor = (float) canvas.getHeight() / (float) previewHeight;
+    override fun onDraw(canvas: Canvas) {
+        super.onDraw(canvas)
+        synchronized(lock) {
+            if (previewWidth != 0 && previewHeight != 0) {
+                widthScaleFactor = canvas.width.toFloat() / previewWidth.toFloat()
+                heightScaleFactor = canvas.height.toFloat() / previewHeight.toFloat()
             }
-
-            for (Graphic graphic : graphics) {
-                graphic.draw(canvas);
+            for (graphic in graphics) {
+                graphic.draw(canvas)
             }
         }
     }
