@@ -1,0 +1,4 @@
+#Mon Jan 30 13:06:15 IST 2023
+base.0=D\:\\mlkit-android-master\\vision\\final\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+renamed.0=classes.dex
+path.0=classes.dex

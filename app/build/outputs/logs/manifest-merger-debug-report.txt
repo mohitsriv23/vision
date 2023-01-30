@@ -1,0 +1,377 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\975de022c7b44486511003d5ef23bb63\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\82c345d1a68ce9f0cf0170eda80e4dd2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\b841b3564d83aa04cd1372a5b6ecea95\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f653a8e53efddce1b85f510bc366593d\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\e4c16e403de946dd88aa8bf0d78a14ab\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.1] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bd677a388959c88c3a57d30fa9fe217e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d1436039cc146662d1abd53dd53c5279\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\664237a279cf78e963ab5654549d38cb\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eee667d6c5eb53cb40d6a42adb36a350\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f69219bc67a110c78fa81ddb1533e65d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f764901671cecdb0b64e8e9450005adc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6ce6ee463456eafbb91a1aeb2093f1db\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\300e69e5fd97313b4cbdd20b58ad2121\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\77e38e6adc07a657e00c71dad279edab\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eec99d1ad6e4f34c878eebc3104837bc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\0e8890e0ccd937d3ab641a3405ad4c81\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\3c4d69abb1d5388d83754eec78a1cd01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\064cb1165f4a7f09de8cc5966ab4d25a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\1c237352c599527443e5d84de7a89271\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\7252f39cb2ddf5e69ce02fee40fac7c8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\84a6115f6e3a1013d0a751127204479e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\67283b3f65b4b3082405cc2e26bb907b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d1a71ce26a9505380641a4bbcca5ea1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c67c55ea91db848677f2484aa3a450b4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\0091979451a420a0b5ffbbb4ee20d311\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\3a8193a83efae5e810f28db9393af5cc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5e30a248b6ef838f426cf1509066c42a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\b145c16bef74c649c6c2d93af1e02cd3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\714dcb5842549a721c90badc049df6d9\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\9ed1366e6aba14ace86104d805f8fac5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\95f5545cf15f5617cd7a21d0db067403\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d66e0276fda62714b15046fd1c43b70\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\deee3299e172b3344bc47c90dc8dbcd0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\605bbd209e1c34784f3b94f60f48f128\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\813c6ff71df345efcc2c4fff16dd12b4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\91851e3fc78e8802491b7a659690b8ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\97da7896bfa91f9b6dc1a428b4c3ab1a\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d37da8dd009e8fe5898b6fd5b3b47830\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\77c0f17d5db14fe131b2f46b67c5071b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d64a68cb1998f74a7b791233a31411ad\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\4db286a1c52a69413adfa31e639a0370\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\ba873c2a9a17013e686de21f5713b320\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d8dc2f8e7b269f97d9ca658df06eec63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\23baeeac576f732b4bbae52a4e02ad8e\AndroidManifest.xml:15:1-22:12
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:6:5-7:38
+	android:maxSdkVersion
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:7:9-35
+	android:name
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:8:5-9:38
+	android:maxSdkVersion
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:9:9-35
+	android:name
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:8:22-77
+application
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:10:5-26:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:8:5-16:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\e4c16e403de946dd88aa8bf0d78a14ab\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\e4c16e403de946dd88aa8bf0d78a14ab\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.1] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bd677a388959c88c3a57d30fa9fe217e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.1] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bd677a388959c88c3a57d30fa9fe217e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d1436039cc146662d1abd53dd53c5279\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d1436039cc146662d1abd53dd53c5279\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\664237a279cf78e963ab5654549d38cb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\664237a279cf78e963ab5654549d38cb\AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eee667d6c5eb53cb40d6a42adb36a350\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eee667d6c5eb53cb40d6a42adb36a350\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f764901671cecdb0b64e8e9450005adc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f764901671cecdb0b64e8e9450005adc\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6ce6ee463456eafbb91a1aeb2093f1db\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6ce6ee463456eafbb91a1aeb2093f1db\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\714dcb5842549a721c90badc049df6d9\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\714dcb5842549a721c90badc049df6d9\AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d66e0276fda62714b15046fd1c43b70\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d66e0276fda62714b15046fd1c43b70\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\714dcb5842549a721c90badc049df6d9\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.google.codelab.mlkit.MainActivity
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:17:9-25:20
+	android:screenOrientation
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:18:13-49
+	android:configChanges
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:19:13-74
+	android:name
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml:23:27-74
+uses-sdk
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\975de022c7b44486511003d5ef23bb63\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\975de022c7b44486511003d5ef23bb63\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\82c345d1a68ce9f0cf0170eda80e4dd2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\82c345d1a68ce9f0cf0170eda80e4dd2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\b841b3564d83aa04cd1372a5b6ecea95\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\b841b3564d83aa04cd1372a5b6ecea95\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:6:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f653a8e53efddce1b85f510bc366593d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f653a8e53efddce1b85f510bc366593d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\e4c16e403de946dd88aa8bf0d78a14ab\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\e4c16e403de946dd88aa8bf0d78a14ab\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.1] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bd677a388959c88c3a57d30fa9fe217e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-face-contour-internal:16.0.1] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bd677a388959c88c3a57d30fa9fe217e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d1436039cc146662d1abd53dd53c5279\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d1436039cc146662d1abd53dd53c5279\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\664237a279cf78e963ab5654549d38cb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\664237a279cf78e963ab5654549d38cb\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eee667d6c5eb53cb40d6a42adb36a350\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eee667d6c5eb53cb40d6a42adb36a350\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f69219bc67a110c78fa81ddb1533e65d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f69219bc67a110c78fa81ddb1533e65d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f764901671cecdb0b64e8e9450005adc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\f764901671cecdb0b64e8e9450005adc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6ce6ee463456eafbb91a1aeb2093f1db\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6ce6ee463456eafbb91a1aeb2093f1db\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\300e69e5fd97313b4cbdd20b58ad2121\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\300e69e5fd97313b4cbdd20b58ad2121\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\77e38e6adc07a657e00c71dad279edab\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\77e38e6adc07a657e00c71dad279edab\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eec99d1ad6e4f34c878eebc3104837bc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\eec99d1ad6e4f34c878eebc3104837bc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\0e8890e0ccd937d3ab641a3405ad4c81\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\0e8890e0ccd937d3ab641a3405ad4c81\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\3c4d69abb1d5388d83754eec78a1cd01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\3c4d69abb1d5388d83754eec78a1cd01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\064cb1165f4a7f09de8cc5966ab4d25a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\064cb1165f4a7f09de8cc5966ab4d25a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\1c237352c599527443e5d84de7a89271\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\1c237352c599527443e5d84de7a89271\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\7252f39cb2ddf5e69ce02fee40fac7c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\7252f39cb2ddf5e69ce02fee40fac7c8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\84a6115f6e3a1013d0a751127204479e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\84a6115f6e3a1013d0a751127204479e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\67283b3f65b4b3082405cc2e26bb907b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\67283b3f65b4b3082405cc2e26bb907b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d1a71ce26a9505380641a4bbcca5ea1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d1a71ce26a9505380641a4bbcca5ea1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c67c55ea91db848677f2484aa3a450b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c67c55ea91db848677f2484aa3a450b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\0091979451a420a0b5ffbbb4ee20d311\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\0091979451a420a0b5ffbbb4ee20d311\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\3a8193a83efae5e810f28db9393af5cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\3a8193a83efae5e810f28db9393af5cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5e30a248b6ef838f426cf1509066c42a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5e30a248b6ef838f426cf1509066c42a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\b145c16bef74c649c6c2d93af1e02cd3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\b145c16bef74c649c6c2d93af1e02cd3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\714dcb5842549a721c90badc049df6d9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\714dcb5842549a721c90badc049df6d9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\9ed1366e6aba14ace86104d805f8fac5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\9ed1366e6aba14ace86104d805f8fac5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\95f5545cf15f5617cd7a21d0db067403\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\95f5545cf15f5617cd7a21d0db067403\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d66e0276fda62714b15046fd1c43b70\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\5d66e0276fda62714b15046fd1c43b70\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\deee3299e172b3344bc47c90dc8dbcd0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\deee3299e172b3344bc47c90dc8dbcd0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\605bbd209e1c34784f3b94f60f48f128\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\605bbd209e1c34784f3b94f60f48f128\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\813c6ff71df345efcc2c4fff16dd12b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\813c6ff71df345efcc2c4fff16dd12b4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\91851e3fc78e8802491b7a659690b8ce\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\91851e3fc78e8802491b7a659690b8ce\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\97da7896bfa91f9b6dc1a428b4c3ab1a\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\97da7896bfa91f9b6dc1a428b4c3ab1a\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d37da8dd009e8fe5898b6fd5b3b47830\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d37da8dd009e8fe5898b6fd5b3b47830\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\77c0f17d5db14fe131b2f46b67c5071b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\77c0f17d5db14fe131b2f46b67c5071b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d64a68cb1998f74a7b791233a31411ad\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d64a68cb1998f74a7b791233a31411ad\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\4db286a1c52a69413adfa31e639a0370\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\4db286a1c52a69413adfa31e639a0370\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\ba873c2a9a17013e686de21f5713b320\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\ba873c2a9a17013e686de21f5713b320\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d8dc2f8e7b269f97d9ca658df06eec63\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\d8dc2f8e7b269f97d9ca658df06eec63\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\23baeeac576f732b4bbae52a4e02ad8e\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\23baeeac576f732b4bbae52a4e02ad8e\AndroidManifest.xml:18:5-20:41
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+		ADDED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+		INJECTED from D:\mlkit-android-master\vision\final\app\src\main\AndroidManifest.xml
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6a3999e11f1241c0f7c20badc705b8b2\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\147a364a46dead3d935df1bb213b3da6\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\df6d44a7ceaf4f6045d4be6e0021d92a\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:16.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\c9664605a00251f4800086aecb33a71c\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\69664e46df25b31afc482b99a91b4a67\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\385c96c7e923e402c14f055f1524dcfb\AndroidManifest.xml:24:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:25:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\bc5a73efa75c74de10e46c8cfe25c27e\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.2] C:\Users\mohit.srivastava\.gradle\caches\transforms-2\files-2.1\6beda7585bd2bfe95e6afcc5dc0c3a01\AndroidManifest.xml:33:13-132
